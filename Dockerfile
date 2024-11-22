@@ -2,10 +2,10 @@
 FROM eclipse-temurin:17-jdk-alpine
 
 # Set a working directory inside the container
-WORKDIR /tmp
+WORKDIR /app
 
 # Copy the built JAR file to the container
-COPY target/*.jar app.jar
+COPY target/contosoapiservice-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the port your application runs on
 EXPOSE 8080
