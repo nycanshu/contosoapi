@@ -1,0 +1,8 @@
+D:\Downloads\contosoapiservice\src\main\java\com\example\contosoapiservice\ContosoapiserviceApplication.java
+D:\Downloads\contosoapiservice\src\main\java\com\example\contosoapiservice\Controller\BaseAprController.java
+D:\Downloads\contosoapiservice\src\main\java\com\example\contosoapiservice\Controller\RiskScoreController.java
+D:\Downloads\contosoapiservice\src\main\java\com\example\contosoapiservice\Model\AprModel.java
+D:\Downloads\contosoapiservice\src\main\java\com\example\contosoapiservice\Model\RiskScoreRequest.java
+D:\Downloads\contosoapiservice\src\main\java\com\example\contosoapiservice\Model\RiskScoreResponse.java
+D:\Downloads\contosoapiservice\src\main\java\com\example\contosoapiservice\Service\BaseAprService.java
+D:\Downloads\contosoapiservice\src\main\java\com\example\contosoapiservice\Service\RiskScoreService.java
