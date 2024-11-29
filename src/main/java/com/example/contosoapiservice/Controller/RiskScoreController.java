@@ -36,6 +36,7 @@ public class RiskScoreController {
         RiskScoreResponse response = new RiskScoreResponse();
         response.setSSN(request.getSSN());
         response.setRiskScore(riskScore);
+        System.out.println("Risk Score is set to : " + riskScore);
         return ResponseEntity.ok(response);
     }
 

@@ -21,6 +21,7 @@ public class BaseAprController {
     @PutMapping("/setbaseapr")
     public ResponseEntity<AprModel> setBaseAprValue(@RequestBody AprModel aprModel) {
         baseAprService.setBaseAprValue(aprModel.getBaseApr());
+        System.out.println("Base APR is set to: " + aprModel.getBaseApr());
         return ResponseEntity.ok(aprModel);
     }
 
@@ -28,6 +29,7 @@ public class BaseAprController {
     public ResponseEntity<AprModel> getBaseAprValue() {
         AprModel aprModel = new AprModel();
         aprModel.setBaseApr(baseAprService.getBaseAprValue());
+        System.out.println("Base APR is: " + aprModel.getBaseApr());
         return ResponseEntity.ok(aprModel);
     }
 }
